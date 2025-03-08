@@ -1,41 +1,4 @@
-<style>
-    body { 
-        font-family: Arial, sans-serif; 
-        line-height: 1.6; 
-        margin: 20px; 
-        background-color: #1e1e1e; 
-        color: #c9d1d9; 
-    }
-    h1, h2, h3 { color: #58a6ff; }
-    code { 
-        background-color: #282c34; 
-        padding: 2px 5px; 
-        border-radius: 5px; 
-        color: #c9d1d9; 
-    }
-    pre { 
-        background-color: #282c34; 
-        padding: 10px; 
-        border-radius: 5px; 
-        overflow-x: auto; 
-        color: #c9d1d9; 
-    }
-    table { 
-        width: 100%; 
-        border-collapse: collapse; 
-        margin-bottom: 20px; 
-    }
-    th, td { 
-        border: 1px solid #444c56; 
-        padding: 8px; 
-        text-align: center; 
-        color: #c9d1d9; 
-    }
-    th { 
-        background-color: #2d333b; 
-        color: #58a6ff; 
-    }
-</style>
+
 
 <h1>🕒 Measuring Processing Time with Big O Notation</h1>
 
@@ -152,5 +115,5 @@ console.log(getFirstItem([10, 20, 30])); // Output: 10
 <p>These examples show that the smaller the Big O, <strong>the faster and more efficient the algorithm is</strong>! 😎</p>
 
 <BR/>
-Reference:
+<strong>Reference:</strong>
 https://www.bigocheatsheet.com/
