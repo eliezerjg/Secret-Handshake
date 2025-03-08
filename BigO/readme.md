@@ -1,6 +1,6 @@
 
 
-<h1>🕒 Measuring Processing Time with Big O Notation</h1>
+<h1>🕒 Measuring Processing Complexity with Big O Notation</h1>
 
 <table>
     <tr>
