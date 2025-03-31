@@ -3,16 +3,18 @@
 <h1>🕒 Measuring Processing Complexity with Big O Notation</h1>
 
 <table>
-    <tr>
+    <thead>
         <th>Worst</th>
         <th>Expression</th>
-    </tr>
-    <tr><td>1</td><td>O(n!)</td></tr>
-    <tr><td>2</td><td>O(2^n)</td></tr>
-    <tr><td>3</td><td>O(n^2)</td></tr>
-    <tr><td>4</td><td>O(n log n)</td></tr>
-    <tr><td>5</td><td>O(n)</td></tr>
-    <tr><td>6</td><td>O(log n) / O(1)</td></tr>
+    </thead>
+    <tbody>
+        <tr><td>1</td><td>O(n!)</td></tr>
+        <tr><td>2</td><td>O(2^n)</td></tr>
+        <tr><td>3</td><td>O(n^2)</td></tr>
+        <tr><td>4</td><td>O(n log n)</td></tr>
+        <tr><td>5</td><td>O(n)</td></tr>
+        <tr><td>6</td><td>O(log n) / O(1)</td></tr>
+    </tbody>
 </table>
 
 <h2>🧩 Understanding Big O Notation with Factorials and Logarithms</h2>
