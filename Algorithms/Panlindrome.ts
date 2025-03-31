@@ -6,7 +6,7 @@ export default class Palindrome{
             var letter = word[index];
             palindromeArray.push(letter);
         }
-
+        var result : string = palindromeArray.join('');
         return word === result;
     }
 }
