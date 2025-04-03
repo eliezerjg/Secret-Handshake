@@ -10,6 +10,7 @@ function quickSort(numbers: number[]) : number[]{
     let leftArray: number[] = [];
     let rightArray: number[] = [];
 
+    // we split by the pivot into left and right
     for(let index = 0; index < numbers.length - 1; index++){
         var number = numbers[index];
 
@@ -20,6 +21,7 @@ function quickSort(numbers: number[]) : number[]{
         }
     }
 
+    // we merge the recursion, the pivot will guide this into small ordered arrays
     return [...quickSort(leftArray), pivot, ...quickSort(rightArray)];
 }
 
